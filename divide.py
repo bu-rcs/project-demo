@@ -1,6 +1,6 @@
 import sys
 
-if int(sys.argv[2]) == 0:
+if int(sys.argv[2]) == 1:
 	print("bad input")
 else:
-	print(int(sys.argv[1])/int(sys.argv[2]))
+	print("Result: {}".format(int(sys.argv[1])/int(sys.argv[2])))
