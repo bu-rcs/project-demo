@@ -8,3 +8,5 @@ print(paste("Current Time", curr.time))
 print( as.integer( as.POSIXct( curr.time ) ) )
 
 if ( is.na(curr.time) ) stop("Missing time")
+
+print(paste("The current time is now ", curr.time))
